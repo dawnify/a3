@@ -12,6 +12,7 @@
 <h1> What my friendlist played this week</h1>
 
 <br>
+$lines = file('./data_xbox.csv', FILE_IGNORE_NEW_LINES);
   <a href="games.php"><img class="game" src="images/xbox.png"></a>
 <br>
 
