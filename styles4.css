@@ -1,0 +1,155 @@
+body{
+	background-color: #ffffff;
+}
+header{
+background-color: #45e327;
+}
+/*Mise en forme du container*/
+#container{
+	width: 920px;
+	margin: auto;
+	background-color: white;
+}
+
+
+/*Mise en forme de l'header*/
+#header{
+	height: 125px;
+}
+
+h1{
+	font-size: 50px;
+	font-family:sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 51);
+	line-height:75px;
+	margin-left: 2px
+}
+
+
+/*Mise en forme de la NAVIGATION*/
+#navigation table{
+	width:100% ;
+	background-color: rgb(255, 255, 51);
+}
+
+#navigation td{
+	position: relative; 
+	bottom: -3px;
+	font-size: 17px;
+	height: 25px;
+}
+
+
+/*Mise en forme generale du body*/
+#body{
+	font-family: sans-serif;
+	margin-left:10px;
+	font-size:17px;
+}
+
+
+/*Mise en forme du PIED de PAGE*/
+#footer table{
+	width:100% ;
+	position: relative;
+	top: 3px;
+	background-color: #80C9EE;
+	color: #000066;
+	font-size: 15px;
+}
+
+#footer .name{
+	width: 60%; 
+	font-family: sans-serif;
+}
+
+
+/*Mise en forme des LIENS*/
+#navigation a:link{
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#body a:link{
+	color: #8B3C3C;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#normal a:link {
+	text-decoration: underline;
+	color:blue;
+}
+
+#navigation a:visited{
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#body a:visited{
+	color: #8B3C3C;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#normal a:visited {
+	text-decoration: underline;
+	color:purple;
+}
+
+#navigation a:hover{
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#body a:hover{
+	color: #8B3C3C;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#normal a:hover {
+	text-decoration: underline;
+	color:purple;
+}
+
+#navigation a:active{
+	color: blue;
+	text-decoration:none;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#body a:active{
+	color:red;
+	background-color: white;
+	font-size: 17px;
+}
+/*Fin de la mise en forme des LIENS*/
+
+
+td{
+	text-align: center;
+}
+
+
+ul.special{
+	list-style-type: none;	
+	margin-left: 30px;
+	padding-top: 2px;
+	width: 200px;
+	height:55px;
+	background-color: #EAEAEA;
+	
+	text-indent: 10px;
+	font-weight:500;
+	line-height: 18px;
+}
+
+
+
+
